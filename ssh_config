@@ -1,0 +1,18 @@
+# GitLab@umich
+Host gitlab
+HostName gitlab.com
+User git
+IdentityFile ~/.ssh/gurnoor_rsa
+
+# CAEN
+Host caen
+HostName login.engin.umich.edu
+User gurnoor
+Compression yes
+
+# Private server
+Host noor
+HostName serve.gurnoorsingh.com
+User gurnoor
+IdentityFile ~/.ssh/id_rsa
+
